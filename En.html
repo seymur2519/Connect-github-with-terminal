@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connect</title>
+</head>
+<body>
+    <header><strong style="font-size: 200%;">DOWNLOAD FİLE FROM GITHUB AND UPLOAD FILE TO GİTHUB </strong>
+        <nav>
+            <ul>Language selection
+                <li><a href="./Connect.html">Azerbaijani</a></li>
+            </ul>
+        </nav>
+        <h1>How to pull and use a file from Github via terminal?</h1>
+    </header>
+    <main>
+        <h2><strong>Firstly we need to connect the terminal to GitHub:</strong></h2>
+        <ul><li>Open the Terminal</li>
+            <li>Write <mark style="background-color: cadetblue;"><strong>config --user.name "seymur2519"</strong></mark> and send the username.</li>
+            <li>Write <mark style="background-color: cadetblue;"><strong>config --user.email "seymur2519@gmail.com"</strong></mark> and send the email.</li>
+            <li>Write <mark style="background-color: cadetblue;"><strong>config --user.password "********"</strong></mark> and send the password.<strong style="color: crimson;">(ALL OF THESE ARE WRITED ONLY ONCE.)</strong></li>
+        </ul>
+        DOWNLOAD FILES FROM GITHUB:
+        <div>
+            <ul>
+                <li>Write <mark style="background-color: cadetblue;"><strong>ls</strong></mark> and see the files in the directory.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>cd Documents</strong></mark> and enter the Documents folder.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>mkdir githubtest</strong></mark> and create githubtest folder.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>cd githubtest</strong></mark> and enter the githubtest folder.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>clone https://github.com/seymur2519/Connect-To-Github.git</strong></mark> and drag the files from github to the githubtest file on the computer</li>
+                Name of the pulled folder is FirstProject.
+                <li>Write <mark style="background-color: cadetblue;"><strong>cd FirstProject</strong></mark> and enter the FirstProject folder.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>code .</strong></mark> and open the file there with the VS code program.</li>
+
+            </ul>
+        </div>
+        UPLOAD FILES TO GITHUB:
+        <div>
+            <ul>
+                Come to the directory where we downloaded the files through the terminal.
+                <li>Write <mark style="background-color: cadetblue;"><strong>git add .</strong></mark> and add contents.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>git status</strong></mark> and look at the status of the directory.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>git commit -m "Rəy"</strong></mark> and send the comment.</li>
+                <li>Write <mark style="background-color: cadetblue;"><strong>git push origin main</strong></mark> and send the files to main room.</li>
+                BONUS:
+                <li>Write <mark style="background-color: cadetblue;"><strong>git pull origin main</strong></mark> and pull the changes to memory of computer.</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <a href="./Contact Us.html">Contact Us</a><br>
+        <a href="https://github.com/about">About</a><br>
+        <sub>All Rights Reserved.<br>
+            This Web page is Powered by Html
+        </sub>
+    </footer>
+</body>
+</html>
